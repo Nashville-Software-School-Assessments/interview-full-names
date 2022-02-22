@@ -1,0 +1,30 @@
+{
+  "name": "full-names",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Nashville-Software-School-Assessments/interview-full-names.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nashville-Software-School-Assessments/interview-full-names/issues"
+  },
+  "homepage": "https://github.com/Nashville-Software-School-Assessments/interview-full-names#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+    "babel-jest": "^25.3.0",
+    "@actions/core": "^1.6.0",
+    "jest": "^27.4.5"
+  }
+}

@@ -1,19 +1,26 @@
 /*
-    Write a function that returns the concatenation of the first and last
-    name of each customer object that is provided to the function. Only active
-    customers should be returned. If the customer is not active, return the
-    string of "inactive".
+    Learning objectives assessed in this exercise:
+        1. Functions, arguments, parameters, return values
+        2. Array iteration
+        3. Accessing object properties
+        4. Using array methods
+        5. Algorithmic thinking
+        6. String templates
 
-    Below are two arrays of customers. Your function should be able to work
-    for any array. Verify that it works for either array in your solution by
-    completing the code at the bottom of the module.
+    INSTRUCTIONS:
+        1. Write a function named `createFullNames`
+        2. The function should accept an array of customer objects as input
+        3. The function should return an array.
+        4. The items in the array should be the concatenation of the first
+                and last name of each active customer object in the input array.
+        5. If the customer is active, or current, their name should be put
+            into the new array. If the customer is not active, the string of
+            "inactive" should be put into the array.
 */
 
 
-// Write your function here to return full names
-
-
-
+// Your function should work if either of these arrays are provided as input.
+// **********  Do not touch this code  **********
 const bankCustomers = [
     { id: 1, name: { first: "Ambros", last: "Zanre" }, email: "azanre0@forbes.com", active: false },
     { id: 2, name: { first: "Dermot", last: "Sweetnam" }, email: "dsweetnam1@fda.gov", active: true },
@@ -40,13 +47,81 @@ const ticketHolders = [
     { id: 9, current: true, name: { first: "Jody", last: "Brocket" }, age: 44 },
     { id: 10, current: false, name: { first: "Phillip", last: "Shackell" }, age: 53 }
 ]
-
-// Use `console.log()` to display the full name of each ticket holder
-for ( of ) {
-}
+// **********  Do not touch this code  **********
 
 
-// Use `console.log()` to display the full name of each bank customer
-for ( of ) {
 
-}
+/*
+    WRITE YOUR FUNCTION HERE
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// **********  Do not touch this code  **********
+export default {createFullNames, bankCustomers, ticketHolders}
+// **********  Do not touch this code  **********
